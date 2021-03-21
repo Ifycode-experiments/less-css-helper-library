@@ -2,7 +2,7 @@
   "name": "css-helper-library",
   "version": "1.0.0",
   "description": "Helper less/css library made by Code Collabo community, to be used in any frontend project",
-  "main": "index.js",
+  "main": "css/styles.css",
   "scripts": {
     "start": "npm-run-all --parallel less",
     "less": "nodemon --exec lessc less/styles.less css/styles.css"
