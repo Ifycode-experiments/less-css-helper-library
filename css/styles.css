@@ -19,7 +19,6 @@ button:disabled {
   color: #3b3b3b;
   cursor: not-allowed;
 }
-/*helpers*/
 .error {
   color: red;
   font-weight: bold;
