@@ -35,11 +35,14 @@ From the class names, it's easy to tell what they do. See effect when added to a
 * `.grid` only sets display to grid. 
 * `.flex` only sets display to flex.
 * `.flex center` sets display to flex, justify-content & align-items are set to center. 
-* `flex-j-center` only sets display to flex & justify-content to center.
-* `flex-a-center` only sets display to flex & justify-content to center.
+* `.flex-j-center` only sets display to flex & justify-content to center.
+* `.flex-a-center` only sets display to flex & justify-content to center.
 * Class names with suffix `-auto` uses same styles as their look-alikes above, but make use of `margin: 0 auto;`. When applied on an element (with width changed to less than 100%), the element is horizontally centered. 
 * `.b-container` uses same style as `block-auto`, but with width set & is responsive already. To be used on the body element or html element(s) acting as outermost containers.
 * **Exception:** `x-auto` sets overflow to auto.
+* `.img-wrapper` has same qualities of `.flex-center`, but with overflow set to hidden - to be used on the parent of an `img` element.
+* `.img-wrapper-rounded` has same qualities of `.img-wrapper` but with border-radius set to 50% - to be used on the parent of an `img` element.
+* `.img-default` sets img max-width to 100% and height to auto - (should be) used on the img element whose parent uses `.img-wrapper` or `.img-wrapper-rounded`.
 
 You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial comming soon on this topic.
 
