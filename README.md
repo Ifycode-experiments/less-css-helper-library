@@ -44,7 +44,7 @@ From the class names, it's easy to tell what they do. See effect when added to a
 * Class names with ***suffix*** `-auto` uses same styles as their look-alikes above, but make use of `margin: 0 auto;`. When applied on an element (with width changed to less than 100%), the element is horizontally centered. 
 * `.b-container` uses same style as `block-auto`, but with width set & is ***responsive*** already. To be used on the body element or html element(s) acting as outermost containers.
 * ***Exception:*** `x-auto` sets overflow to auto.
-* `.grid-auto-1-auto-row` sets display to grid, `grid-template-rows` to `auto 1fr auto` & `grid-template-columns` to `1fr`.
+* `.grid-auto-1-auto-row` sets display to grid, grid-template-rows to `auto 1fr auto`, grid-template-columns to `1fr` & also sets the height of the element to 100%.
 * `.img-wrapper` has same qualities of `.flex-center`, but with overflow set to hidden - to be used on the parent of an `img` element.
 * `.img-wrapper-rounded` has same qualities of `.img-wrapper` but with border-radius set to 50% - to be used on the parent of an `img` element.
 * `.img-default` is same as our [reset style](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) for images. It sets an `img` element's max-width to 100% and height to auto. ***Note:*** An `img` element inside a parent that uses `.img-wrapper` or `.img-wrapper-rounded` must be set to the reset style.
