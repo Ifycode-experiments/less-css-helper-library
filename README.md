@@ -30,7 +30,7 @@ v1.0.0 contains reset styles & some classes which you can apply on html elements
 * ***For css project:*** `./node_modules/less-css-helper-library/css/styles.css`
 * ***For less project:*** `node_modules/less-css-helper-library/less/styles.less`
 
-You can just reference both in your project if you use `less` & may need to switch to `css`. Make sure add it before your own css and/or less files.
+You can just ***reference both*** in your project if you use `less` & may need to switch to or mix with `css`. Make sure to add the reference(s) before that of your own css and/or less files.
 
 #### Class names:
 From the class names, it's easy to tell what they do. See effect when added to an html element below:
