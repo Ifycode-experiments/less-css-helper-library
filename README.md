@@ -8,7 +8,7 @@ The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-li
 
  
 ## v1.0.0 styles & classes
-v1.0.0 contains reset styles & some classes which you can apply on html elements:
+v1.0.0 contains some  [reset styles](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) and classes which you can apply on html elements:
 
 * `.block` 
 * `.block-auto`
