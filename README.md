@@ -1,5 +1,9 @@
 # less-css-helper-library
 
+
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![GitHub Repo stars](https://img.shields.io/github/stars/code-collabo/less-css-helper-library) ![GitHub forks](https://img.shields.io/github/forks/code-collabo/less-css-helper-library) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/less-css-helper-library?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/less-css-helper-library?color=goldenrod)
+
+
 Helper [less/css library](https://github.com/code-collabo/less-css-helper-library) to be used in css, less and frontend projects, built as close as possible to css itself. Related css key value pairs often used together are stored in classes for ease, reuse and to give quick structuring.
  
 ## v1.0.0 styles & classes
