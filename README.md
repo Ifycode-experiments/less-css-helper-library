@@ -27,7 +27,8 @@ v1.0.0 contains reset styles & some classes which you can apply on html elements
 `npm install less-css-helper-library`
 
 #### Reference the library in your project with:
-`./node_modules/less-css-helper-library/css/styles.css` (for css project) or `node_modules/less-css-helper-library/less/styles.less` (for less project).
+* **For css project:** `./node_modules/less-css-helper-library/css/styles.css`
+* **For less project:** `node_modules/less-css-helper-library/less/styles.less`
 
 #### Class names:
 From the class names, it's easy to tell what they do. See effect when added to an html element below:
