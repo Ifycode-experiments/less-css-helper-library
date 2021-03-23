@@ -23,7 +23,7 @@ v1.0.0 contains reset styles & some classes which you can apply on html elements
 * `.img-default`
 
 ## How to use
-#### Install:
+#### Install [package from npm]():
 `npm install less-css-helper-library`
 
 #### Reference the library in your project with:
@@ -40,6 +40,7 @@ From the class names, it's easy to tell what they do. See effect when added to a
 * `.flex center` sets display to flex, justify-content & align-items are set to center. 
 * `.flex-j-center` only sets display to flex & justify-content to center.
 * `.flex-a-center` only sets display to flex & justify-content to center.
+* `.flex-space-btw` sets display to flex & justify-content to space-between.
 * Class names with ***suffix*** `-auto` uses same styles as their look-alikes above, but make use of `margin: 0 auto;`. When applied on an element (with width changed to less than 100%), the element is horizontally centered. 
 * `.b-container` uses same style as `block-auto`, but with width set & is ***responsive*** already. To be used on the body element or html element(s) acting as outermost containers.
 * ***Exception:*** `x-auto` sets overflow to auto.
@@ -47,5 +48,5 @@ From the class names, it's easy to tell what they do. See effect when added to a
 * `.img-wrapper-rounded` has same qualities of `.img-wrapper` but with border-radius set to 50% - to be used on the parent of an `img` element.
 * `.img-default` is same as our reset style for images. It sets an `img` element's max-width to 100% and height to auto. ***Note:*** An `img` element inside a parent that uses `.img-wrapper` or `.img-wrapper-rounded` must be set to the reset style.
 
-You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial comming soon on this topic.
+You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial coming soon on this topic.
 
