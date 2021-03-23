@@ -23,7 +23,7 @@ v1.0.0 contains reset styles & some classes which you can apply on html elements
 * `.img-default`
 
 ## How to use
-#### Install [package from npm]():
+#### Install [package from npm](https://www.npmjs.com/package/less-css-helper-library):
 `npm install less-css-helper-library`
 
 #### Reference the library in your project with:
@@ -47,11 +47,11 @@ From the class names, it's easy to tell what they do. See effect when added to a
 * `.grid-auto-1-auto-row` sets display to grid, `grid-template-rows` to `auto 1fr auto` & `grid-template-columns` to `1fr`.
 * `.img-wrapper` has same qualities of `.flex-center`, but with overflow set to hidden - to be used on the parent of an `img` element.
 * `.img-wrapper-rounded` has same qualities of `.img-wrapper` but with border-radius set to 50% - to be used on the parent of an `img` element.
-* `.img-default` is same as our reset style for images. It sets an `img` element's max-width to 100% and height to auto. ***Note:*** An `img` element inside a parent that uses `.img-wrapper` or `.img-wrapper-rounded` must be set to the reset style.
+* `.img-default` is same as our [reset style](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) for images. It sets an `img` element's max-width to 100% and height to auto. ***Note:*** An `img` element inside a parent that uses `.img-wrapper` or `.img-wrapper-rounded` must be set to the reset style.
 
 You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial coming soon on this topic.
 
 ## How to contribute
-At the moment it is maintained by just one person - @Ifycode. Meaning that more features will be added only when needed. If you like and have started using the library in your projects but doesn't contain what you need (yet), you can help speed up the process by raising it as an issue or send a pull request. Please take note of the following:
+At the moment it is maintained by just one person - [@Ifycode](https://github.com/Ifycode). Meaning that more features will be added only when needed. If you like and have started using the library in your projects but doesn't contain what you need (yet), you can help speed up the process by raising it as an issue or send a pull request. Please take note of the following:
 * The styles or classes you propose must be as close as possible to css itself, group related property-value pairs, should be reusable, and usable in any section inside the body of html documents.
 * Do not make...
