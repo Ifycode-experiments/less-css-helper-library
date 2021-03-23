@@ -1,7 +1,7 @@
 # less-css-helper-library
 
 Helper [less/css library](https://github.com/code-collabo/less-css-helper-library) to be used in css and frontend projects, built as close as possible to css itself. Related css key value pairs often used together are stored in classes for ease, reuse and to give quick structuring.
-
+ 
 ## v1.0.0 styles & classes
 v1.0.0 contains reset styles & some classes which you can apply on html elements:
 
@@ -34,13 +34,12 @@ From the class names, it's easy to tell what they do. See effect when added to a
 * `.block` only sets display to block.
 * `.grid` only sets display to grid. 
 * `.flex` only sets display to flex.
-* `.flex center` sets display to flex, justify-content & align-items are set to center. `flex-j-center` only sets justify content to center
- 
-* Class names with suffix `-auto` make use of `margin: 0 auto;`. When applied on an element (with width changed to less than 100%), the element is horizontally centered. 
+* `.flex center` sets display to flex, justify-content & align-items are set to center. 
+* `flex-j-center` only sets display to flex & justify-content to center.
+* `flex-a-center` only sets display to flex & justify-content to center.
+* Class names with suffix `-auto` uses same styles as their look-alikes above, but make use of `margin: 0 auto;`. When applied on an element (with width changed to less than 100%), the element is horizontally centered. 
+* `.b-container` uses same style as `block-auto`, but with width set & is responsive already. To be used on the body element or html element(s) acting as outermost containers.
+* **Exception:** `x-auto` sets overflow to auto.
 
-
-* `.b-container` uses same style as `block-auto` but with width set. Advicable to use this for the body element or html element(s) acting as outermost containers.
-
-A few exceptions: except for `x-auto` which means
-
+You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial comming soon on this topic.
 
