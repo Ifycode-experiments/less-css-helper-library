@@ -57,3 +57,7 @@ At the moment it is maintained by just one person - [@Ifycode](https://github.co
 ***Please take note of the following:***
 * The styles or classes you propose must be as close as possible to css itself, group related property-value pairs, should be reusable, and usable in any section inside the body of html documents.
 * Do not make changes directly in the `main` or `develop` branches. See [development environment & git workflow](https://github.com/code-collabo/node-mongo-docs/issues/2) on how to make changes to the code base and submit pull request.
+
+## Technologies
+[<img alt="CSS 3" width="25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://github.com/code-collabo/less-css-helper-library)
+[<img alt="less" height="20px" src="http://lesscss.org/public/img/less_logo.png" />](https://github.com/code-collabo/less-css-helper-library)
