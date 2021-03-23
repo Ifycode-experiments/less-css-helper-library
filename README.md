@@ -51,3 +51,7 @@ From the class names, it's easy to tell what they do. See effect when added to a
 
 You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial coming soon on this topic.
 
+## How to contribute
+At the moment it is maintained by just one person - @Ifycode. Meaning that more features will be added only when needed. If you like and have started using the library in your projects but doesn't contain what you need (yet), you can help speed up the process by raising it as an issue or send a pull request. Please take note of the following:
+* The styles or classes you propose must be as close as possible to css itself, group related property-value pairs, should be reusable, and usable in any section inside the body of html documents.
+* Do not make...
