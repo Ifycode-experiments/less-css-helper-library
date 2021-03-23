@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+.flex-space-btw {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* reset styles */
 * {
   margin: 0;
@@ -18,17 +29,120 @@ img {
 }
 button {
   cursor: pointer;
+  font-size: 1em;
+  padding: 8px 10px;
+  border-radius: 4px;
 }
 button:disabled {
   background: #b9b9b9;
   color: #3b3b3b;
   cursor: not-allowed;
 }
+/* display/structure */
+.block {
+  display: block;
+}
+.block-auto {
+  display: block;
+  margin: 0 auto;
+}
+.b-container {
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+}
+@media screen and (min-width: 481px) {
+  .b-container {
+    width: 94%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .b-container {
+    width: 88%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .b-container {
+    width: 85%;
+  }
+}
+.grid {
+  display: grid;
+}
+.grid-auto-1-auto-row {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+.flex {
+  display: flex;
+}
+.flex-space-btw {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-auto {
+  display: flex;
+  margin: 0 auto;
+}
+.flex-space-btw-auto {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-j-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-a-center {
+  display: flex;
+  align-items: center;
+}
+.x-auto {
+  overflow-x: auto;
+}
 /* class styles */
 .error {
-  color: red;
+  color: #e40101;
 }
 .error-bold {
-  color: red;
+  color: #e40101;
   font-weight: bold;
+}
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.img-wrapper-rounded {
+  /*round img-wrapper*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-default {
+  max-width: 100%;
+  height: auto;
+}
+.btn-default {
+  background: #2f80ed;
+  color: #fefefe;
+}
+.btn-default-2 {
+  background: transparent;
+  color: #2f80ed;
+  border: 1px solid #2f80ed;
+}
+.btn-danger {
+  background: #e40101;
+  color: #fefefe;
 }

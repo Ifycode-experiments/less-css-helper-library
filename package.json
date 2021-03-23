@@ -1,6 +1,6 @@
 {
-  "name": "css-helper-library",
-  "version": "1.0.1",
+  "name": "less-css-helper-library",
+  "version": "1.0.0",
   "description": "Helper less/css library made by Code Collabo community, to be used in any frontend project",
   "main": "css/styles.css",
   "scripts": {
@@ -9,15 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/code-collabo/css-helper-library.git"
+    "url": "git+https://github.com/code-collabo/less-css-helper-library.git"
   },
-  "keywords": [],
-  "author": "Obiagba Mary",
+  "keywords": [
+    "css",
+    "less",
+    "library",
+    "helper library",
+    "css library",
+    "less library"
+  ],
+  "author": "Obiagba Mary | Code Collabo Community",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/code-collabo/css-helper-library/issues"
+    "url": "https://github.com/code-collabo/less-css-helper-library/issues"
   },
-  "homepage": "https://github.com/code-collabo/css-helper-library#readme",
+  "homepage": "https://github.com/code-collabo/less-css-helper-library#readme",
   "dependencies": {
     "less": "^4.1.1"
   },

@@ -2,9 +2,75 @@
 //detached rulesets
 
 @color-red: {
-  color: red;
-}
+  color: @red-color;
+};
 
 @margin-zero: {
   margin: 0;
 };
+
+@auto-margin: {
+  margin: 0 auto;
+};
+
+@block: {
+  display: block;
+};
+
+@grid: {
+  display: grid;
+}
+
+@flex: {
+  display: flex;
+}
+
+@justify-center: {
+  justify-content: center;
+}
+
+@justify-space-btw: {
+  justify-content: space-between;
+}
+
+@align-center: {
+  align-items: center;
+}
+
+@x-auto: {
+  overflow-x: auto;
+}
+
+@x-hidden: {
+  overflow: hidden;
+}
+
+
+
+
+//mixins
+
+.width(@width-value) {
+  width: @width-value;
+}
+
+.block-auto() {
+  @block();
+  @auto-margin();
+}
+
+.flex-auto() {
+  @flex();
+  @auto-margin();
+}
+
+.flex-space-btw {
+  @flex();
+  @justify-space-btw();
+}
+
+.flex-center {
+  @flex();
+  @justify-center();
+  @align-center();
+}

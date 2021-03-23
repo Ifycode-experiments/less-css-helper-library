@@ -1,0 +1,74 @@
+
+/* display/structure */
+
+.block {
+  @block();
+}
+
+.block-auto {
+  .block-auto();
+}
+
+.b-container {
+  .block-auto();
+  .width(97%);
+  @media @small-devices {
+    .width(94%);
+  }
+  @media @medium-devices {
+    .width(88%);
+  }
+  @media @large-devices {
+    .width(85%);
+  }
+}
+
+//------- grid ----------
+
+.grid {
+  @grid();
+}
+
+.grid-auto-1-auto-row {
+  @grid();
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  height: @100-tage;
+}
+
+//------- flex ----------
+
+.flex {
+  @flex();
+}
+
+.flex-space-btw {
+  .flex-space-btw();
+}
+
+.flex-auto {
+  .flex-auto();
+}
+
+.flex-space-btw-auto {
+  .flex-space-btw();
+  @auto-margin();
+}
+
+.flex-center {
+  .flex-center();
+}
+
+.flex-j-center {
+  @flex();
+  @justify-center();
+}
+
+.flex-a-center {
+  @flex();
+  @align-center();
+}
+
+.x-auto {
+  @x-auto();
+}
