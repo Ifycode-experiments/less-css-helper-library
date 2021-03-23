@@ -4,7 +4,8 @@
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![GitHub Repo stars](https://img.shields.io/github/stars/code-collabo/less-css-helper-library) ![GitHub forks](https://img.shields.io/github/forks/code-collabo/less-css-helper-library) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/less-css-helper-library?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/less-css-helper-library?color=goldenrod)
 
 
-Helper [less/css library](https://github.com/code-collabo/less-css-helper-library) to be used in css, less and frontend projects, built as close as possible to css itself. Related css key value pairs often used together are stored in classes for ease, reuse and to give quick structuring.
+***Vanilla*** [less/css helper library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) key value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. Styles or classes do not reflect personal preference(s), ***built-in css styles*** are made accessible in the user's projects just by adding a class to an html element.
+
  
 ## v1.0.0 styles & classes
 v1.0.0 contains reset styles & some classes which you can apply on html elements:
@@ -59,7 +60,10 @@ You have total control over what the width of the element (and margin in the cas
 At the moment it is maintained by just one person - [@Ifycode](https://github.com/Ifycode). Meaning that more features will be added only when needed. If you like and have started using the library in your projects but doesn't contain what you need (yet), you can help speed up the process by raising it as an issue or send a pull request. 
 
 ***Please take note of the following:***
-* The styles or classes you propose must be as close as possible to css itself, group related property-value pairs, should be reusable, and usable in any section inside the body of html documents.
+* Group property-value pairs that are related or are often used together in one class so that it is reusable.
+* The styles or classes (names) you propose must give good idea of the property-value pairs stored in it. 
+* Styles or classes proposed must be usable in any section inside the body of html documents.
+* Styles or classes proposed must not reflect personal preference(s). The aim is to make ***built-in css styles*** accessible in the user's projects just by adding a class to an html element.
 * Do not make changes directly in the `main` or `develop` branches. See [development environment & git workflow](https://github.com/code-collabo/node-mongo-docs/issues/2) on how to make changes to the code base and submit pull request.
 
 ## Technologies
