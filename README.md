@@ -2,10 +2,6 @@
 
 Helper [less/css library](https://github.com/code-collabo/less-css-helper-library) to be used in css and frontend projects, built as close as possible to css itself. Related css key value pairs often used together are stored in classes for ease, reuse and to give quick structuring.
 
-## How to use
-* Install: `npm install less-css-helper-library`
-* link to use in your project : `./node_modules/less-css-helper-library/css/styles.css` (for css project) or `node_modules/less-css-helper-library/less/styles.less` (for less project).
-
 ## v1.0.0 styles & classes
 v1.0.0 contains reset styles & some classes which you can apply on html elements:
 
@@ -26,12 +22,25 @@ v1.0.0 contains reset styles & some classes which you can apply on html elements
 * `.img-wrapper-rounded` 
 * `.img-default`
 
-#### Extra classes:
-* `.btn-default` 
-* `.btn-default-2` 
-* `.btn-danger`
-* `.error`
-* `.error-bold`
+## How to use
+#### Install:
+`npm install less-css-helper-library`
 
-More detailed docs & tutorial comming soon.
+#### Reference the library in your project with:
+`./node_modules/less-css-helper-library/css/styles.css` (for css project) or `node_modules/less-css-helper-library/less/styles.less` (for less project).
+
+#### Class names:
+From the class names, it's easy to tell what they do. See effect when added to an html element below:
+* `.block` only sets display to block.
+* `.grid` only sets display to grid. 
+* `.flex` only sets display to flex.
+* `.flex center` sets display to flex, justify-content & align-items are set to center. `flex-j-center` only sets justify content to center
+ 
+* Class names with suffix `-auto` make use of `margin: 0 auto;`. When applied on an element (with width changed to less than 100%), the element is horizontally centered. 
+
+
+* `.b-container` uses same style as `block-auto` but with width set. Advicable to use this for the body element or html element(s) acting as outermost containers.
+
+A few exceptions: except for `x-auto` which means
+
 
