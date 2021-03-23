@@ -7,6 +7,9 @@
     "start": "npm-run-all --parallel less",
     "less": "nodemon --exec lessc less/styles.less css/styles.css"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/code-collabo/less-css-helper-library.git"
