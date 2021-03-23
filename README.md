@@ -4,7 +4,7 @@
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![GitHub Repo stars](https://img.shields.io/github/stars/code-collabo/less-css-helper-library) ![GitHub forks](https://img.shields.io/github/forks/code-collabo/less-css-helper-library) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/less-css-helper-library?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/less-css-helper-library?color=goldenrod)
 
 
-The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) key value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. Styles or classes do not reflect personal preference(s), ***built-in css styles*** are made accessible in the user's projects just by adding a class to an html element.
+The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) key value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. Styles or classes do not reflect personal preference(s), ***built-in css styles*** are only made accessible in your projects just by adding a class to an html element.
 
  
 ## v1.0.0 styles & classes
