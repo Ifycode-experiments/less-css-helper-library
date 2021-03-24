@@ -29,6 +29,7 @@ v1.0.0 contains some [reset styles](https://github.com/code-collabo/less-css-hel
 * `.img-default`
 
 #### [Color-related](https://github.com/code-collabo/less-css-helper-library/blob/main/less/02-style/color.less) classes:
+***Note:*** _Color-related classes may not necessarily use built-in values_. For now, only class names for text & buttons are included based on common trend.
 * `.error`
 * `.error-bold`
 * `.btn-default`
