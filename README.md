@@ -7,8 +7,8 @@
 The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) key value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. Styles or classes do not reflect personal preference(s), ***built-in css styles*** are only made accessible in your projects just by adding a class to an html element.
 
  
-## v1.0.0 styles & classes
-v1.0.0 contains some [reset styles](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) and classes which you can apply on html elements.
+## Styles & classes
+The library provides some [reset styles](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) and classes which you can apply on html elements.
 
 #### [display-related](https://github.com/code-collabo/less-css-helper-library/blob/main/less/02-style/display.less) classes:
 * `.block` 
@@ -37,14 +37,24 @@ v1.0.0 contains some [reset styles](https://github.com/code-collabo/less-css-hel
 * `.btn-danger`
  
 ## How to use
-#### Install [package from npm](https://www.npmjs.com/package/less-css-helper-library):
-`npm install less-css-helper-library`
+Install the npm package or use the cdn option.
 
-#### Reference the library in your project with:
-* ***For css project:*** `node_modules/less-css-helper-library/css/styles.css`
-* ***For less project:*** `node_modules/less-css-helper-library/less/styles.less`
+#### Install [npm package](https://www.npmjs.com/package/@code-collabo/less-css-helper-library):
+`npm i @code-collabo/less-css-helper-library`
 
-You can just ***reference both*** in your project if you use `less` & may need to switch to or mix with `css`. Make sure to add the reference(s) before that of your own css and/or less files.
+Reference the library in your project with:
+`node_modules/@code-collabo/less-css-helper-library/css/styles.css` - _For css project_.
+
+`node_modules/@code-collabo/less-css-helper-library/less/styles.less` - _For less project_.
+
+You can just ***reference both*** in case you need to switch from `css` to `less` & vice versa. Make sure to add the reference(s) before that of your own css and/or less files.
+
+If you are using less in an angular project for example, reference the one for less or both in the styles array in your angular.json file. You also need to import it at the top of your main .less file like so:
+
+`@import 'node_modules/@code-collabo/less-css-helper-library/less/styles.less';`
+
+#### Using CDN
+Add cdn content here once you have created & tested it.
 
 #### Class names:
 From the class names, it's easy to tell what they do. See effect when added to an html element below:
