@@ -55,7 +55,7 @@ If you are using less in an angular project for example, reference the one for l
 `@import 'node_modules/@code-collabo/less-css-helper-library/less/styles.less';`
 
 #### Using CDN:
-For projects that don't use nodejs, add the cdn as href value for your link tag in the .html file. Make sure to add this before the other link tags used to reference your own css styles.
+For projects that don't use nodejs, add the css cdn as href value for your link tag in the .html file. Make sure to add this before the other link tags used to reference your own css styles.
 
 `<link rel="stylesheet" href="https://code-collabo.github.io/less-css-helper-library/css/styles.css">`
 
