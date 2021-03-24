@@ -43,17 +43,18 @@ Install the npm package or use the cdn option.
 `npm i @code-collabo/less-css-helper-library`
 
 Reference the library in your project with:
+
 `node_modules/@code-collabo/less-css-helper-library/css/styles.css` - _For css project_.
 
 `node_modules/@code-collabo/less-css-helper-library/less/styles.less` - _For less project_.
 
-You can just ***reference both*** in case you need to switch from `css` to `less` & vice versa. Make sure to add the reference(s) before that of your own css and/or less files.
+You can just _reference both_ in case you need to switch from `css` to `less` & vice versa. Make sure to add the reference(s) before that of your own css and/or less files.
 
 If you are using less in an angular project for example, reference the one for less or both in the styles array in your angular.json file. You also need to import it at the top of your main .less file like so:
 
 `@import 'node_modules/@code-collabo/less-css-helper-library/less/styles.less';`
 
-#### Using CDN
+#### Using CDN:
 Add cdn content here once you have created & tested it.
 
 #### Class names:
