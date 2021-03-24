@@ -1,6 +1,6 @@
 {
   "name": "@code-collabo/less-css-helper-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper less/css library made by Code Collabo community, to be used in any frontend project",
   "main": "css/styles.css",
   "scripts": {
