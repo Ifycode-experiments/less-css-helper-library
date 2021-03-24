@@ -4,7 +4,7 @@
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![GitHub Repo stars](https://img.shields.io/github/stars/code-collabo/less-css-helper-library) ![GitHub forks](https://img.shields.io/github/forks/code-collabo/less-css-helper-library) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/less-css-helper-library?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/less-css-helper-library?color=goldenrod)
 
 
-The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) key value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. Styles or classes do not reflect personal preference(s), ***built-in css styles*** are only made accessible in your projects just by adding a class to an html element.
+The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) key value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. ***Built-in css styles*** are made accessible in your projects just by adding a class to an html element.
 
  
 ## Styles & classes
@@ -17,8 +17,8 @@ The library provides some [reset styles](https://github.com/code-collabo/less-cs
 * `.grid`
 * `.grid-auto-1-auto-row` 
 * `.flex` 
-* `.flex-space-btw` 
 * `.flex-auto` 
+* `.flex-space-btw` 
 * `.flex-space-btw-auto` 
 * `.flex-center` 
 * `.flex-j-center` 
@@ -55,7 +55,9 @@ If you are using less in an angular project for example, reference the one for l
 `@import 'node_modules/@code-collabo/less-css-helper-library/less/styles.less';`
 
 #### Using CDN:
-Add cdn content here once you have created & tested it.
+For projects that don't use nodejs, add the css cdn as href value for your link tag in the .html file. Make sure to add this before the other link tags used to reference your own css styles.
+
+`<link rel="stylesheet" href="https://code-collabo.github.io/less-css-helper-library/css/styles.css">`
 
 #### Class names:
 From the class names, it's easy to tell what they do. See effect when added to an html element below:
@@ -84,9 +86,10 @@ The library is maintained by just one person at the moment - [@Ifycode](https://
 * Group property-value pairs that are related or are often used together in one class so that it is reusable.
 * The styles or classes (names) you propose must give good idea of the property-value pairs stored in it. 
 * Styles or classes proposed must be usable in any section inside the body of html documents.
+<!--
 * Styles or classes proposed must not reflect personal preference(s). The aim is to make ***built-in css styles*** accessible in the user's projects just by adding a class to an html element.
+-->
 * Do not make changes directly in the `main` or `develop` branches. See [development environment & git workflow](https://github.com/code-collabo/node-mongo-docs/issues/2) on how to make changes to the code base and submit pull request.
 
 ## Technologies
-[<img alt="CSS 3" width="25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://github.com/code-collabo/less-css-helper-library)
-[<img alt="less" height="20px" src="http://lesscss.org/public/img/less_logo.png" />](https://github.com/code-collabo/less-css-helper-library)
+[<img alt="CSS 3" width="25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="less" height="20px" src="http://lesscss.org/public/img/less_logo.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="node js" height="25px" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />](https://github.com/code-collabo/less-css-helper-library)
