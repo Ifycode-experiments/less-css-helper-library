@@ -29,16 +29,13 @@ img {
 }
 button {
   cursor: pointer;
-  font-size: 1em;
-  padding: 8px 10px;
-  border-radius: 4px;
 }
 button:disabled {
   background: #b9b9b9;
   color: #3b3b3b;
   cursor: not-allowed;
 }
-/* display/structure */
+/* display - structure & images */
 .block {
   display: block;
 }
@@ -107,14 +104,6 @@ button:disabled {
 .x-auto {
   overflow-x: auto;
 }
-/* class styles */
-.error {
-  color: #e40101;
-}
-.error-bold {
-  color: #e40101;
-  font-weight: bold;
-}
 .img-wrapper {
   display: flex;
   justify-content: center;
@@ -133,11 +122,20 @@ button:disabled {
   max-width: 100%;
   height: auto;
 }
+/* text or bg color styles */
+.error {
+  color: #e40101;
+}
+.error-bold {
+  color: #e40101;
+  font-weight: bold;
+}
+/* btn color styles */
 .btn-default {
   background: #2f80ed;
   color: #fefefe;
 }
-.btn-default-2 {
+.btn-transparent {
   background: transparent;
   color: #2f80ed;
   border: 1px solid #2f80ed;

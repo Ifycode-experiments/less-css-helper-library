@@ -1,5 +1,5 @@
 
-/* display/structure */
+/* display - structure & images */
 
 .block {
   @block();
@@ -71,4 +71,23 @@
 
 .x-auto {
   @x-auto();
+}
+
+
+//--- Image display ---------
+
+.img-wrapper {
+  .flex-center();
+  @x-hidden();
+}
+
+.img-wrapper-rounded { /*round img-wrapper*/
+  .flex-center();
+  @x-hidden();
+  border-radius: 50%;
+}
+
+.img-default {
+  max-width: @100-tage;
+  height: auto;
 }
