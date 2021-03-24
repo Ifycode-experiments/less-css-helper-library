@@ -8,8 +8,9 @@ The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-li
 
  
 ## v1.0.0 styles & classes
-v1.0.0 contains some  [reset styles](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) and classes which you can apply on html elements:
+v1.0.0 contains some [reset styles](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) and classes which you can apply on html elements.
 
+#### [display-related](https://github.com/code-collabo/less-css-helper-library/blob/main/less/02-style/display.less) classes:
 * `.block` 
 * `.block-auto`
 * `.b-container` 
@@ -27,12 +28,19 @@ v1.0.0 contains some  [reset styles](https://github.com/code-collabo/less-css-he
 * `.img-wrapper-rounded` 
 * `.img-default`
 
+#### [Color-related](https://github.com/code-collabo/less-css-helper-library/blob/main/less/02-style/color.less) classes:
+* `.error`
+* `.error-bold`
+* `.btn-default`
+* `.btn-transparent`
+* `.btn-danger`
+ 
 ## How to use
 #### Install [package from npm](https://www.npmjs.com/package/less-css-helper-library):
 `npm install less-css-helper-library`
 
 #### Reference the library in your project with:
-* ***For css project:*** `./node_modules/less-css-helper-library/css/styles.css`
+* ***For css project:*** `node_modules/less-css-helper-library/css/styles.css`
 * ***For less project:*** `node_modules/less-css-helper-library/less/styles.less`
 
 You can just ***reference both*** in your project if you use `less` & may need to switch to or mix with `css`. Make sure to add the reference(s) before that of your own css and/or less files.
@@ -53,6 +61,7 @@ From the class names, it's easy to tell what they do. See effect when added to a
 * `.img-wrapper` has same qualities of `.flex-center`, but with overflow set to hidden - to be used on the parent of an `img` element.
 * `.img-wrapper-rounded` has same qualities of `.img-wrapper` but with border-radius set to 50% - to be used on the parent of an `img` element.
 * `.img-default` is same as our [reset style](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) for images. It sets an `img` element's max-width to 100% and height to auto. ***Note:*** An `img` element inside a parent that uses `.img-wrapper` or `.img-wrapper-rounded` must be set to the reset style, therefore always add the `.img-default` class to such img element.
+* Just apply color-related classes to text, background or buttons as the case maybe to see effect.
 
 You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial coming soon on this topic.
 
