@@ -1,15 +1,6 @@
+/* reset styles */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
-.flex-space-btw {
-  display: flex;
-  justify-content: space-between;
-}
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* reset styles */
 * {
   margin: 0;
   border: 0;
@@ -75,13 +66,13 @@ button:disabled {
 .flex {
   display: flex;
 }
-.flex-space-btw {
-  display: flex;
-  justify-content: space-between;
-}
 .flex-auto {
   display: flex;
   margin: 0 auto;
+}
+.flex-space-btw {
+  display: flex;
+  justify-content: space-between;
 }
 .flex-space-btw-auto {
   display: flex;
