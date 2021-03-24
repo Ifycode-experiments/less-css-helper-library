@@ -61,7 +61,7 @@ From the class names, it's easy to tell what they do. See effect when added to a
 * `.img-wrapper` has same qualities of `.flex-center`, but with overflow set to hidden - to be used on the parent of an `img` element.
 * `.img-wrapper-rounded` has same qualities of `.img-wrapper` but with border-radius set to 50% - to be used on the parent of an `img` element.
 * `.img-default` is same as our [reset style](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) for images. It sets an `img` element's max-width to 100% and height to auto. ***Note:*** An `img` element inside a parent that uses `.img-wrapper` or `.img-wrapper-rounded` must be set to the reset style, therefore always add the `.img-default` class to such img element.
-* Just apply color-related classes to text, background or buttons as the case maybe to see effect.
+* `.error` and `.error-bold` are for text, while other color-related classes are for buttons.
 
 You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial coming soon on this topic.
 
