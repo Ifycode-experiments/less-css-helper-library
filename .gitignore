@@ -2,6 +2,7 @@
 
 ## css test
 test/
+.npmrc
 
 # compiled output
 /dist
