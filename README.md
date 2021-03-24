@@ -86,9 +86,6 @@ The library is maintained by just one person at the moment - [@Ifycode](https://
 * Group property-value pairs that are related or are often used together in one class so that it is reusable.
 * The styles or classes (names) you propose must give good idea of the property-value pairs stored in it. 
 * Styles or classes proposed must be usable in any section inside the body of html documents.
-<!--
-* Styles or classes proposed must not reflect personal preference(s). The aim is to make ***built-in css styles*** accessible in the user's projects just by adding a class to an html element.
--->
 * Do not make changes directly in the `main` or `develop` branches. See [development environment & git workflow](https://github.com/code-collabo/node-mongo-docs/issues/2) on how to make changes to the code base and submit pull request.
 
 ## Technologies
