@@ -1,7 +1,7 @@
 # less-css-helper-library
 
 
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![npm version](https://badge.fury.io/js/%40code-collabo%2Fless-css-helper-library.svg) ![GitHub Repo stars](https://img.shields.io/github/stars/code-collabo/less-css-helper-library) ![GitHub forks](https://img.shields.io/github/forks/code-collabo/less-css-helper-library) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/less-css-helper-library?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/less-css-helper-library?color=goldenrod) ![NPM Downloads](https://img.shields.io/npm/dm/@code-collabo/less-css-helper-library)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![npm version](https://badge.fury.io/js/%40code-collabo%2Fless-css-helper-library.svg) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/less-css-helper-library?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/less-css-helper-library?color=goldenrod) ![NPM Downloads](https://img.shields.io/npm/dm/@code-collabo/less-css-helper-library)
 
 The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) key value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. ***Built-in css styles*** are made accessible in your projects just by adding a class to an html element.
 
