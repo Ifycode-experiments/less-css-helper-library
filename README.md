@@ -46,7 +46,7 @@ Thanks to these wonderful people helping to improve the ***less-css-helper-libra
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-See complete list of Code Collabo contributors in the [all-contributors.md](https://github.com/code-collabo/docs/blob/main/all-contributors.md).
+See complete list of Code Collabo contributors in the [docs: all-contributors.md](https://github.com/code-collabo/docs/blob/main/all-contributors.md).
 
 ## Technologies
 [<img alt="CSS 3" width="25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="less" height="20px" src="http://lesscss.org/public/img/less_logo.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="node js" height="25px" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />](https://github.com/code-collabo/less-css-helper-library)
