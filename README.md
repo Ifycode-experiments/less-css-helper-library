@@ -17,18 +17,10 @@ From the class names, it's easy to tell what they do. Some examples:
 You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial coming soon on this topic.
 
 ## Documentation
-Due to addition of more features and also to provide you better support, sections previously included in the readme have been moved to our docs. Simply click on any of the links to learn to install and use the library in your project:
+Due to addition of more features and also to provide you better support, sections previously included in the readme have been moved to our docs. Simply click on any of the links to learn to install, use the library in your project and contribute to the library.
 * Add links here...
 
-
-## How to contribute
 The library is maintained by just one person at the moment - [@Ifycode](https://github.com/Ifycode). Meaning that more features will be added only when needed. If you like and have started using the library in your projects but doesn't contain what you need (yet), you can help speed up the process by raising it as an issue or send a pull request. 
-
-***Please take note of the following:***
-* Group property-value pairs that are related or are often used together in one class so that it is reusable.
-* The styles or classes (names) you propose must give good idea of the property-value pairs stored in it. 
-* Styles or classes proposed must be usable in any section inside the body of html documents.
-* Do not make changes directly in the `main` or `develop` branches. See [development environment & git workflow](https://github.com/code-collabo/node-mongo-docs/issues/2) on how to make changes to the code base and submit pull request.
 
 ## Technologies
 [<img alt="CSS 3" width="25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="less" height="20px" src="http://lesscss.org/public/img/less_logo.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="node js" height="25px" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />](https://github.com/code-collabo/less-css-helper-library)
