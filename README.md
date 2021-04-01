@@ -5,35 +5,17 @@
 
 The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) key value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. ***Built-in css styles*** are made accessible in your projects just by adding a class to an html element.
 
-## Styles & classes
 The library provides some [reset styles](https://github.com/code-collabo/less-css-helper-library/blob/main/less/01-base/reset.less) and classes which you can apply on html elements.
+From the class names, it's easy to tell what they do. Some examples:
 
-#### [display-related](https://github.com/code-collabo/less-css-helper-library/blob/main/less/02-style/display.less) classes:
-* `.block` 
-* `.block-auto`
-* `.b-container` 
-* `.grid`
-* `.grid-auto-1-auto-row` 
-* `.flex` 
-* `.flex-auto` 
-* `.flex-space-btw` 
-* `.flex-space-btw-auto` 
-* `.flex-center` 
-* `.flex-j-center` 
-* `.flex-a-center` 
-* `.x-auto` 
-* `.img-wrapper` 
-* `.img-wrapper-rounded` 
-* `.img-default`
+* `.block` only sets display to block.
+* `.grid` only sets display to grid. 
+* `.flex` only sets display to flex.
+* `.flex-center` sets display to flex, justify-content and align-items are set to center. 
+* `.flex-j-center` only sets display to flex & justify-content to center etc.
 
-#### [Color-related](https://github.com/code-collabo/less-css-helper-library/blob/main/less/02-style/color.less) classes:
-***Note:*** _Color-related classes may not necessarily use built-in values_. For now, only class names for text & buttons are included based on common trend.
-* `.error`
-* `.error-bold`
-* `.btn-default`
-* `.btn-transparent`
-* `.btn-danger`
- 
+You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial coming soon on this topic.
+
 ## How to use
 Install the npm package or use the cdn option.
 
