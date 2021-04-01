@@ -1,6 +1,5 @@
 # less-css-helper-library
 
-
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![npm version](https://badge.fury.io/js/%40code-collabo%2Fless-css-helper-library.svg) ![NPM Downloads](https://img.shields.io/npm/dm/@code-collabo/less-css-helper-library?color=blue) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/less-css-helper-library?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/less-css-helper-library?color=goldenrod) 
 
 The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) key value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. ***Built-in css styles*** are made accessible in your projects just by adding a class to an html element.
@@ -17,7 +16,7 @@ From the class names, it's easy to tell what they do. Some examples:
 You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial coming soon on this topic.
 
 ## Documentation
-Due to addition of more features and also to provide you better support, sections previously included in the readme have been moved to our docs. Simply click on any of the links to learn to install, use the library in your project and contribute to the library.
+Due to addition of more features, for easy maintenance and also to provide you better support, sections previously included in the readme have been [moved to our docs](https://github.com/code-collabo/docs). Simply click on any of the links to learn to install, use the library in your project and contribute to the library.
 #### Using library
 * [Styles and classes](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/styles-and-classes.md)
 * [How to use](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/how-to-use.md)
