@@ -28,12 +28,9 @@ Due to addition of more features, for easy maintenance and also to provide you b
 
 The library is maintained by just one person at the moment - [@Ifycode](https://github.com/Ifycode). Meaning that more features will be added only when needed. If you like and have started using the library in your projects but doesn't contain what you need (yet), you can help speed up the process by raising it as an issue or send a pull request. 
 
-## Technologies
-[<img alt="CSS 3" width="25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="less" height="20px" src="http://lesscss.org/public/img/less_logo.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="node js" height="25px" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />](https://github.com/code-collabo/less-css-helper-library)
-
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks to these wonderful people helping to improve the ***less-css-helper-library*** project [= (emoji key) =>](https://allcontributors.org/docs/en/emoji-key)
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -49,4 +46,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+See complete list of Code Collabo contributors in the [all-contributors.md](https://github.com/code-collabo/docs/blob/main/all-contributors.md).
+
+## Technologies
+[<img alt="CSS 3" width="25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="less" height="20px" src="http://lesscss.org/public/img/less_logo.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="node js" height="25px" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />](https://github.com/code-collabo/less-css-helper-library)
