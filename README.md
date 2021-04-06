@@ -21,10 +21,10 @@ You have total control over what the width of the element (and margin in the cas
 ## Documentation
 For easy maintenance (due to modifications to be made and addition of more features) and also to provide you better support, sections previously included in the readme have been [moved to our docs](https://github.com/code-collabo/docs). Simply click on any of the links to learn to install, use the library in your project and contribute to the library.
 #### Using library
-* [Styles and classes](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/styles-and-classes.md)
-* [How to use](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/how-to-use.md)
+* [Docs: styles and classes](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/styles-and-classes.md)
+* [Docs: how to use](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/how-to-use.md)
 #### Contributing to library
-* See [contributor guide](https://github.com/code-collabo/docs/tree/main/contributor-guide) which contains ***contributing.md***, ***CODE_OF_CONDUCT***, ***git workflow*** and ***project development setup*** to help you get started.
+* See [docs: contributor guide](https://github.com/code-collabo/docs/tree/main/contributor-guide) which contains ***contributing.md***, ***CODE_OF_CONDUCT***, ***git workflow*** and ***project development setup*** to help you get started.
 
 The library is maintained by just one person at the moment - [@Ifycode](https://github.com/Ifycode). Meaning that more features will be added only when needed. If you like and have started using the library in your projects but doesn't contain what you need (yet), you can help speed up the process by raising it as an issue or send a pull request. 
 
