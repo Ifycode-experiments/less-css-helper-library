@@ -24,7 +24,7 @@ For easy maintenance (due to modifications to be made and addition of more featu
 * [Styles and classes](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/styles-and-classes.md)
 * [How to use](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/how-to-use.md)
 #### Contributing to library
-* See [contributor guide](https://github.com/code-collabo/docs/tree/main/contributor-guide) which contains ***contributing.md***, ***CODE_OF_CONDUCT***, ***git workflow*** and ***project development setup***.
+* See [contributor guide](https://github.com/code-collabo/docs/tree/main/contributor-guide) which contains ***contributing.md***, ***CODE_OF_CONDUCT***, ***git workflow*** and ***project development setup*** to help you get started.
 
 The library is maintained by just one person at the moment - [@Ifycode](https://github.com/Ifycode). Meaning that more features will be added only when needed. If you like and have started using the library in your projects but doesn't contain what you need (yet), you can help speed up the process by raising it as an issue or send a pull request. 
 
