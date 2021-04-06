@@ -19,7 +19,7 @@ From the class names, it's easy to tell what they do. Some examples:
 You have total control over what the width of the element (and margin in the case of `-auto`) should be. More details & tutorial coming soon on this topic.
 
 ## Documentation
-Due to addition of more features, for easy maintenance and also to provide you better support, sections previously included in the readme have been [moved to our docs](https://github.com/code-collabo/docs). Simply click on any of the links to learn to install, use the library in your project and contribute to the library.
+For easy maintenance (due to modifications to be made and addition of more features) and also to provide you better support, sections previously included in the readme have been [moved to our docs](https://github.com/code-collabo/docs). Simply click on any of the links to learn to install, use the library in your project and contribute to the library.
 #### Using library
 * [Styles and classes](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/styles-and-classes.md)
 * [How to use](https://github.com/code-collabo/docs/blob/main/user-guide/less-css-helper-library/how-to-use.md)
