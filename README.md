@@ -30,7 +30,7 @@ The library is maintained by just one person at the moment - [@Ifycode](https://
 
 ## Contributors ✨
 
-[Thanks to these wonderful people](https://code-collabo.gitbook.io/docs-code-collabo/meet-our-awesome-contributors/all-contributors) helping to improve some or all aspects of the [Code Collabo project](https://github.com/code-collabo)_**.**_ 
+[Thanks to these wonderful people](https://code-collabo.gitbook.io/docs/meet-our-awesome-contributors/all-contributors) helping to improve some or all aspects of the [Code Collabo project](https://github.com/code-collabo)_**.**_ 
 
 ## Technologies
 [<img alt="CSS 3" width="25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="less" height="20px" src="http://lesscss.org/public/img/less_logo.png" />](https://github.com/code-collabo/less-css-helper-library) [<img alt="node js" height="25px" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" />](https://github.com/code-collabo/less-css-helper-library)
