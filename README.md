@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![npm version](https://badge.fury.io/js/%40code-collabo%2Fless-css-helper-library.svg) ![NPM Downloads](https://img.shields.io/npm/dm/@code-collabo/less-css-helper-library?color=blue) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/less-css-helper-library?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/less-css-helper-library?color=goldenrod) 
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![npm version](https://badge.fury.io/js/%40code-collabo%2Fless-css-helper-library.svg) ![NPM Downloads](https://img.shields.io/npm/dy/@code-collabo/less-css-helper-library?color=blue) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/less-css-helper-library?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/less-css-helper-library?color=goldenrod) 
 
 The [less-css-helper-library](https://github.com/code-collabo/less-css-helper-library) for css, less and frontend projects. Related (css) property-value pairs often used together are stored in css classes for easy use, reuse and to help quickly structure your projects. ***Built-in css styles*** are made accessible in your projects just by adding a class to an html element.
 
