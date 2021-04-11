@@ -21,8 +21,7 @@ You have total control over what the width of the element (and margin in the cas
 ## Documentation
 For easy maintenance (due to modifications to be made and addition of more features) and also to provide you better support, sections previously included in the readme have been [moved to our docs](https://code-collabo.gitbook.io/docs/) - see [this section of the docs](https://code-collabo.gitbook.io/docs/contributor-guide/docs) in case you also wish to contribute to the docs. Simply click on any of the links to learn to install, use the library in your project and contribute to the library.
 #### Using library
-* [Styles and classes](https://code-collabo.gitbook.io/docs/user-guide/less-css-helper-library/styles-and-classes)
-* [Installation and use](https://code-collabo.gitbook.io/docs/user-guide/less-css-helper-library/how-to-use)
+* See [user guide](https://code-collabo.gitbook.io/docs/user-guide/less-css-helper-library) for ***styles and classes*** added to the library, and ***installation and use*** section.
 #### Contributing to library
 * See [contributor guide](https://code-collabo.gitbook.io/docs/contributor-guide/contributor-guide) which contains ***contributing.md***, ***CODE_OF_CONDUCT***, ***git workflow*** and ***project development setup*** to help you get started.
 
