@@ -5,11 +5,11 @@ export default {
   devtool: 'inline-source-map',
   noInfo: false,
   entry: [
-    path.resolve(_dirname, 'src/index')
+    path.resolve(__dirname, 'src/index')
   ],
   target: 'web',
   output: {
-    path: path.resolve(_dirname, 'src'),
+    path: path.resolve(__dirname, 'src'),
     publicPath: '/',
     filename: 'bundle.js'
   },
