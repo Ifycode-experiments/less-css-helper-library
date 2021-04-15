@@ -1,8 +1,8 @@
 import express from 'express';
 import path from 'path';
 import open from 'open';
+import { port, portUrl, openPort } from './customize/chalk';
 
-const port = 3000;
 const app = express();
 
 /*eslint-disable no-console*/
@@ -17,7 +17,7 @@ app.listen(port, err => {
   if (err) {
     console.log(err);
   } else {
-    console.log(`Open: http://localhost:${port}`);
-    open(`http://localhost:${port}`);
+    console.log(openPort);
+    open(portUrl);
   }
 });
