@@ -10,7 +10,7 @@
     "lint": "esw webpack.config.* src buildScripts --color",
     "lint:watch": "npm run lint -- --watch",
     "less": "nodemon --exec lessc src/less/styles.less src/css/styles.css",
-    "webpack:dev": "webpack --config webpack.config.js",
+    "webpack:dev": "webpack --config webpack.dev.config.js",
     "webpack:watch": "webpack --watch"
   },
   "publishConfig": {
