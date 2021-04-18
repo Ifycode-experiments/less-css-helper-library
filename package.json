@@ -5,13 +5,14 @@
   "main": "buildScripts/srcServer.js",
   "scripts": {
     "prestart": "babel-node buildScripts/customize/startMsg.js",
-    "start": "npm-run-all --parallel less webpack:watch open:src lint:watch",
+    "start": "npm-run-all --parallel less open:src lint:watch",
     "open:src": "babel-node buildScripts/srcServer.js",
     "lint": "esw webpack.config.* src buildScripts --color",
     "lint:watch": "npm run lint -- --watch",
     "less": "nodemon --exec lessc src/less/styles.less src/css/styles.css",
     "webpack:dev": "webpack --config webpack.dev.config.js",
-    "webpack:watch": "webpack --watch"
+    "webpack:watch": "webpack --watch",
+    "build": "webpack --config webpack.prod.config.js"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

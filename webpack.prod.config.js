@@ -1,14 +1,14 @@
 const path = require('path');
+
 const config = require('./webpack.config');
 
-config.mode = 'development';
+config.mode = 'production';
 
-config.devtool = 'inline-source-map';
+config.devtool = 'source-map';
 
 config.output = {
   filename: 'bundle.js',
-  path: path.resolve(__dirname, 'src'),
-  publicPath: '/'
+  path: path.resolve(__dirname, 'dist')
 }
 
 module.exports = config;

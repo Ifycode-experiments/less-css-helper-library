@@ -1,7 +1,14 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'none',
   entry: './src/index.js',
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: 'src/index.html',
+      inject: true,
+      scriptLoading: 'blocking'
+    })
+  ],
   module: {
     rules: [
       {

@@ -3,7 +3,17 @@ import path from 'path';
 import open from 'open';
 import { port, portUrl, openPort } from './customize/chalk';
 
+import webpack from 'webpack';
+import config from '../webpack.dev.config';
+import webpackDevMiddleware from 'webpack-dev-middleware';
+
 const app = express();
+
+const compiler = webpack(config);
+
+app.use(webpackDevMiddleware(compiler, {
+  publicPath: config.output.publicPath
+}));
 
 /*eslint-disable no-console*/
 
