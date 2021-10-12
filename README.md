@@ -1,3 +1,7 @@
+|IMPORTANT NOTICE|
+|--|
+|Hi, contribute to the [scss-helper-library](https://github.com/code-collabo/scss-helper-library) instead, which will replace this less-css-helper-library. The scss-library is still in development. scss-helper-library repo/project will contain both SCSS and LESS and also be production suitable. You could also help with [documentation](https://code-collabo.gitbook.io/scss-helper-library/). |
+
 # less-css-helper-library
 
 
